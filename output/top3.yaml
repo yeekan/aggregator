@@ -17,19 +17,19 @@ proxies:
   server: 51.222.136.236
   type: ss
   udp: true
-- name: 🇨🇦 TROJAN-CA
-  password: 5t6i121em5lkmsmk
-  port: 46977
-  server: 216.128.185.90
-  sni: ca001.zestapp778.com
-  type: trojan
+- cipher: aes-256-gcm
+  name: SS-MX-1564
+  password: BWyPPTusFKhGgzKh
+  port: 8388
+  server: 64.177.90.30
+  type: ss
   udp: true
 proxy-groups:
 - name: 🚀 最快3节点
   proxies:
   - 🇨🇦 SS-CA-1558
   - 🇨🇦 SS-CA-1557
-  - 🇨🇦 TROJAN-CA
+  - SS-MX-1564
   type: select
 rules:
 - MATCH,🚀 最快3节点
