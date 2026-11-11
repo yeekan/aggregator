@@ -38,6 +38,8 @@ jobs:
         run: |
           git config user.name "aggregator-bot"
           git config user.email "aggregator-bot@users.noreply.github.com"
-          git add output/clash.yaml output/singbox.json output/v2ray.txt output/top3.json output/top3.yaml 2>/dev/null || true
+          for f in output/clash.yaml output/singbox.json output/v2ray.txt output/top3.json output/top3.yaml; do
+            [ -f "$f" ] && git add "$f"
+          done
           git diff --cached --quiet && echo "nothing to commit" || git commit -m "hourly top3 $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
