@@ -3,6 +3,20 @@ log-level: info
 mixed-port: 7890
 mode: Rule
 proxies:
+- cipher: aes-256-cfb
+  name: 🇺🇸 美国 | USA 4
+  password: amazonskr05
+  port: 443
+  server: 3.16.78.3
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇨🇦 SS-CA-1557
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 51.222.136.236
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: SS-MX-1564
   password: BWyPPTusFKhGgzKh
@@ -10,26 +24,12 @@ proxies:
   server: 64.177.90.30
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 🇬🇧 SS-GB-1602
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 185.176.206.9
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇩🇪 SS-DE-1615
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 193.108.119.3
-  type: ss
-  udp: true
 proxy-groups:
 - name: 🚀 最快3节点
   proxies:
+  - 🇺🇸 美国 | USA 4
+  - 🇨🇦 SS-CA-1557
   - SS-MX-1564
-  - 🇬🇧 SS-GB-1602
-  - 🇩🇪 SS-DE-1615
   type: select
 rules:
 - MATCH,🚀 最快3节点
