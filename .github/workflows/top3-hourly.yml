@@ -1,0 +1,43 @@
+name: Top3 hourly
+
+on:
+  schedule:
+    - cron: "5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  top3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Make binaries executable
+        run: chmod +x clash/clash-linux-amd subconverter/subconverter-linux-amd
+
+      - name: Fetch and aggregate (with liveness check)
+        env:
+          LOCAL_BASEDIR: ${{ github.workspace }}
+        run: python -u subscribe/process.py -s my-config.json --overwrite -n 32 -t 5000
+
+      - name: Rank top 3 fastest
+        run: python top3.py
+
+      - name: Commit results
+        run: |
+          git config user.name "aggregator-bot"
+          git config user.email "aggregator-bot@users.noreply.github.com"
+          git add output/clash.yaml output/singbox.json output/v2ray.txt output/top3.json output/top3.yaml 2>/dev/null || true
+          git diff --cached --quiet && echo "nothing to commit" || git commit -m "hourly top3 $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
