@@ -18,10 +18,10 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇬🇧 SS-GB-1602
+  name: 🇩🇪 SS-DE-1615... 2
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 185.176.206.9
+  server: 193.108.119.2
   type: ss
   udp: true
 proxy-groups:
@@ -29,7 +29,7 @@ proxy-groups:
   proxies:
   - SS-MX-1564
   - 🇨🇦 SS-CA-1557
-  - 🇬🇧 SS-GB-1602
+  - 🇩🇪 SS-DE-1615... 2
   type: select
 rules:
 - MATCH,🚀 最快3节点
