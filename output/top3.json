@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12 12:58:58",
+  "generated_at": "2026-11-12 14:14:07",
   "tested": 65,
   "alive": 60,
   "test_url": "https://www.google.com/generate_204",
@@ -9,21 +9,21 @@
       "type": "ss",
       "server": "64.177.90.30",
       "port": 8388,
-      "delay_ms": 192
+      "delay_ms": 191
     },
     {
-      "name": "🇬🇧 SS-GB-1615... 1",
+      "name": "🇨🇦 SS-CA-1546... 1",
       "type": "ss",
-      "server": "38.114.120.221",
-      "port": 19999,
-      "delay_ms": 332
+      "server": "51.222.155.32",
+      "port": 5003,
+      "delay_ms": 234
     },
     {
-      "name": "🇩🇪 SS-DE-1615... 1",
+      "name": "🇬🇧 SS-GB-1451",
       "type": "ss",
-      "server": "23.157.88.43",
-      "port": 19999,
-      "delay_ms": 336
+      "server": "158.173.24.73",
+      "port": 443,
+      "delay_ms": 423
     }
   ]
 }
