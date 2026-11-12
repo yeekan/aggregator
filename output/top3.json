@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-12 20:45:20",
-  "tested": 74,
-  "alive": 68,
+  "generated_at": "2026-11-12 21:42:14",
+  "tested": 76,
+  "alive": 73,
   "test_url": "https://www.google.com/generate_204",
   "top3": [
+    {
+      "name": "🇨🇦 SS-CA-1557",
+      "type": "ss",
+      "server": "51.222.136.236",
+      "port": 8882,
+      "delay_ms": 229
+    },
     {
       "name": "SS-8",
       "type": "ss",
       "server": "64.177.90.30",
       "port": 8388,
-      "delay_ms": 199
+      "delay_ms": 251
     },
     {
-      "name": "🇬🇧 SS-GB-1615",
+      "name": "🇯🇵 SS-JP-1544",
       "type": "ss",
-      "server": "142.202.51.22",
-      "port": 19999,
-      "delay_ms": 265
-    },
-    {
-      "name": "🇳🇱 SS-NL-1620",
-      "type": "ss",
-      "server": "104.222.183.180",
-      "port": 47195,
-      "delay_ms": 266
+      "server": "84.247.155.196",
+      "port": 80,
+      "delay_ms": 374
     }
   ]
 }
