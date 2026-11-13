@@ -11,10 +11,10 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇭🇰 SS-HK-1621
-  password: AMok40FfaM+Ikwre16psBpVk6JHxsQZw
-  port: 8388
-  server: 209.248.57.105
+  name: 🇩🇪 SS-DE-1615
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.108.119.3
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -28,7 +28,7 @@ proxy-groups:
 - name: 🚀 最快3节点
   proxies:
   - SS-MX-1564
-  - 🇭🇰 SS-HK-1621
+  - 🇩🇪 SS-DE-1615
   - 🇬🇧 SS-GB-1615
   type: select
 rules:
