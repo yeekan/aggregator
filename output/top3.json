@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-13 20:49:03",
-  "tested": 75,
-  "alive": 74,
+  "generated_at": "2026-11-13 21:43:17",
+  "tested": 77,
+  "alive": 76,
   "test_url": "https://www.google.com/generate_204",
   "top3": [
     {
-      "name": "SS-MX-1564",
-      "type": "ss",
-      "server": "64.177.90.30",
-      "port": 8388,
-      "delay_ms": 170
+      "name": "🇨🇦 TROJAN-CA",
+      "type": "trojan",
+      "server": "216.152.147.201",
+      "port": 443,
+      "delay_ms": 125
     },
     {
-      "name": "🇨🇦 SS-CA-1559",
+      "name": "🇨🇦 SS-CA-1546",
       "type": "ss",
-      "server": "51.222.141.125",
-      "port": 445,
-      "delay_ms": 239
+      "server": "51.222.155.113",
+      "port": 5601,
+      "delay_ms": 128
     },
     {
       "name": "🇨🇦 SS-CA-1557",
       "type": "ss",
       "server": "51.222.136.236",
       "port": 8882,
-      "delay_ms": 244
+      "delay_ms": 134
     }
   ]
 }
