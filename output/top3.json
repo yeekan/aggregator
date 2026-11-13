@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-13 02:43:02",
-  "tested": 80,
+  "generated_at": "2026-11-13 03:49:32",
+  "tested": 82,
   "alive": 78,
   "test_url": "https://www.google.com/generate_204",
   "top3": [
+    {
+      "name": "🇨🇦 SS-CA-1559",
+      "type": "ss",
+      "server": "51.222.141.125",
+      "port": 445,
+      "delay_ms": 96
+    },
     {
       "name": "🇨🇦 SS-CA-1546",
       "type": "ss",
       "server": "51.222.155.113",
       "port": 5601,
-      "delay_ms": 132
+      "delay_ms": 105
     },
     {
       "name": "🇨🇦 SS-CA-1557",
       "type": "ss",
       "server": "51.222.136.236",
       "port": 8882,
-      "delay_ms": 158
-    },
-    {
-      "name": "🇨🇦 SS-CA-1559",
-      "type": "ss",
-      "server": "51.222.141.125",
-      "port": 445,
-      "delay_ms": 170
+      "delay_ms": 125
     }
   ]
 }
