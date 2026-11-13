@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-13 19:50:39",
-  "tested": 64,
-  "alive": 62,
+  "generated_at": "2026-11-13 20:49:03",
+  "tested": 75,
+  "alive": 74,
   "test_url": "https://www.google.com/generate_204",
   "top3": [
     {
@@ -9,7 +9,7 @@
       "type": "ss",
       "server": "64.177.90.30",
       "port": 8388,
-      "delay_ms": 122
+      "delay_ms": 170
     },
     {
       "name": "🇨🇦 SS-CA-1559",
@@ -23,7 +23,7 @@
       "type": "ss",
       "server": "51.222.136.236",
       "port": 8882,
-      "delay_ms": 318
+      "delay_ms": 244
     }
   ]
 }
