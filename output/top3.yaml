@@ -11,25 +11,25 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇨🇦 SS-CA-1557
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 51.222.136.236
+  name: 🇭🇰 SS-HK-1621
+  password: AMok40FfaM+Ikwre16psBpVk6JHxsQZw
+  port: 8388
+  server: 209.248.57.105
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇨🇦 SS-CA-1546
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 51.222.155.113
+  name: 🇬🇧 SS-GB-1615
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 142.202.51.22
   type: ss
   udp: true
 proxy-groups:
 - name: 🚀 最快3节点
   proxies:
   - SS-MX-1564
-  - 🇨🇦 SS-CA-1557
-  - 🇨🇦 SS-CA-1546
+  - 🇭🇰 SS-HK-1621
+  - 🇬🇧 SS-GB-1615
   type: select
 rules:
 - MATCH,🚀 最快3节点
