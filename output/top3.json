@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-14 04:47:46",
-  "tested": 80,
-  "alive": 77,
+  "generated_at": "2026-11-14 05:44:41",
+  "tested": 75,
+  "alive": 74,
   "test_url": "https://www.google.com/generate_204",
   "top3": [
     {
-      "name": "🇺🇸 美国 | USA 7",
-      "type": "vmess",
-      "server": "us122201.ssgreen.org",
-      "port": 443,
-      "delay_ms": 120
-    },
-    {
-      "name": "🇨🇦 SS-CA-1555",
+      "name": "SS-MX-1564",
       "type": "ss",
-      "server": "15.235.121.109",
-      "port": 8080,
-      "delay_ms": 229
+      "server": "64.177.90.30",
+      "port": 8388,
+      "delay_ms": 162
     },
     {
       "name": "🇨🇦 SS-CA-1557",
       "type": "ss",
       "server": "51.222.136.236",
       "port": 8882,
-      "delay_ms": 230
+      "delay_ms": 241
+    },
+    {
+      "name": "🇨🇦 SS-CA-1559",
+      "type": "ss",
+      "server": "51.222.141.125",
+      "port": 445,
+      "delay_ms": 243
     }
   ]
 }
