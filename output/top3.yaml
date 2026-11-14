@@ -4,6 +4,13 @@ mixed-port: 7890
 mode: Rule
 proxies:
 - cipher: aes-256-gcm
+  name: SS-MX-1564
+  password: BWyPPTusFKhGgzKh
+  port: 8388
+  server: 64.177.90.30
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
   name: 🇨🇦 SS-CA-1559
   password: zDNVedRFPQexG9v
   port: 445
@@ -11,25 +18,18 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇯🇵 SS-JP-1544
-  password: 3eOFeNssde7PYYMv
-  port: 80
-  server: 84.247.155.196
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇬🇧 SS-GB-1616... 1
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 198.244.202.215
+  name: SS
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 51.222.136.236
   type: ss
   udp: true
 proxy-groups:
 - name: 🚀 最快3节点
   proxies:
+  - SS-MX-1564
   - 🇨🇦 SS-CA-1559
-  - 🇯🇵 SS-JP-1544
-  - 🇬🇧 SS-GB-1616... 1
+  - SS
   type: select
 rules:
 - MATCH,🚀 最快3节点
