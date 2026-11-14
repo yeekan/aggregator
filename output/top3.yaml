@@ -4,10 +4,10 @@ mixed-port: 7890
 mode: Rule
 proxies:
 - cipher: aes-256-gcm
-  name: 🇭🇰 SS-HK-1621... 1
-  password: AMok40FfaM+Ikwre16psBpVk6JHxsQZw
-  port: 8388
-  server: 209.248.57.105
+  name: 🇨🇦 SS-CA-1559
+  password: zDNVedRFPQexG9v
+  port: 445
+  server: 51.222.141.125
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -18,18 +18,18 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇨🇦 SS-CA-1559
-  password: zDNVedRFPQexG9v
-  port: 445
-  server: 51.222.141.125
+  name: 🇬🇧 SS-GB-1602
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.176.206.9
   type: ss
   udp: true
 proxy-groups:
 - name: 🚀 最快3节点
   proxies:
-  - 🇭🇰 SS-HK-1621... 1
-  - 🇨🇦 SS-CA-1557
   - 🇨🇦 SS-CA-1559
+  - 🇨🇦 SS-CA-1557
+  - 🇬🇧 SS-GB-1602
   type: select
 rules:
 - MATCH,🚀 最快3节点
