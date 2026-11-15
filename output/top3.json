@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-15 00:51:49",
-  "tested": 77,
-  "alive": 75,
+  "generated_at": "2026-11-15 01:58:47",
+  "tested": 79,
+  "alive": 77,
   "test_url": "https://www.google.com/generate_204",
   "top3": [
-    {
-      "name": "🇨🇦 SS-CA-1559",
-      "type": "ss",
-      "server": "51.222.141.125",
-      "port": 445,
-      "delay_ms": 248
-    },
     {
       "name": "🇨🇦 SS-CA-1555",
       "type": "ss",
       "server": "15.235.121.109",
       "port": 8080,
-      "delay_ms": 259
+      "delay_ms": 234
+    },
+    {
+      "name": "🇨🇦 SS-CA-1559",
+      "type": "ss",
+      "server": "51.222.141.125",
+      "port": 445,
+      "delay_ms": 271
     },
     {
       "name": "🇨🇦 TROJAN-CA-... 1",
       "type": "trojan",
       "server": "216.152.147.93",
       "port": 443,
-      "delay_ms": 259
+      "delay_ms": 273
     }
   ]
 }
