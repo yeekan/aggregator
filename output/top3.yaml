@@ -3,13 +3,6 @@ log-level: info
 mixed-port: 7890
 mode: Rule
 proxies:
-- cipher: aes-256-gcm
-  name: 🇭🇰 SS-HK-1621... 1
-  password: AMok40FfaM+Ikwre16psBpVk6JHxsQZw
-  port: 8388
-  server: 209.248.57.105
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇦 SS-CA-1555
   password: 575hiopq2h28yao6
@@ -18,18 +11,25 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: SS
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 51.222.136.236
+  name: 🇨🇦 SS-CA-1559
+  password: zDNVedRFPQexG9v
+  port: 445
+  server: 51.222.141.125
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇨🇦 SS-CA-1558
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 51.222.200.165
   type: ss
   udp: true
 proxy-groups:
 - name: 🚀 最快3节点
   proxies:
-  - 🇭🇰 SS-HK-1621... 1
   - 🇨🇦 SS-CA-1555
-  - SS
+  - 🇨🇦 SS-CA-1559
+  - 🇨🇦 SS-CA-1558
   type: select
 rules:
 - MATCH,🚀 最快3节点
