@@ -4,32 +4,32 @@ mixed-port: 7890
 mode: Rule
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 🇨🇦 SS-CA-1555
+  name: SS-2
   password: 575hiopq2h28yao6
   port: 8080
   server: 15.235.121.109
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇨🇦 SS-CA-1558
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 51.222.200.165
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇨🇦 SS-CA-1559
+  name: SS-1
   password: zDNVedRFPQexG9v
   port: 445
   server: 51.222.141.125
   type: ss
   udp: true
+- cipher: aes-256-gcm
+  name: SS-17
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 38.114.120.221
+  type: ss
+  udp: true
 proxy-groups:
 - name: 🚀 最快3节点
   proxies:
-  - 🇨🇦 SS-CA-1555
-  - 🇨🇦 SS-CA-1558
-  - 🇨🇦 SS-CA-1559
+  - SS-2
+  - SS-1
+  - SS-17
   type: select
 rules:
 - MATCH,🚀 最快3节点
