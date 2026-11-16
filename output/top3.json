@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-16 17:56:46",
+  "generated_at": "2026-11-16 18:49:35",
   "tested": 57,
-  "alive": 54,
+  "alive": 55,
   "test_url": "https://www.google.com/generate_204",
   "top3": [
     {
@@ -9,21 +9,21 @@
       "type": "ss",
       "server": "38.114.120.221",
       "port": 19999,
-      "delay_ms": 394
+      "delay_ms": 316
     },
     {
-      "name": "SS-1",
+      "name": "🇬🇧 SS-GB-1616... 1",
       "type": "ss",
-      "server": "185.176.206.9",
+      "server": "198.244.202.215",
       "port": 19999,
-      "delay_ms": 395
+      "delay_ms": 322
     },
     {
-      "name": "🇫🇷 SS-FR-1615... 1",
+      "name": "🇫🇷 SS-FR-1615... 2",
       "type": "ss",
-      "server": "167.17.64.27",
+      "server": "172.99.189.142",
       "port": 19999,
-      "delay_ms": 399
+      "delay_ms": 322
     }
   ]
 }
