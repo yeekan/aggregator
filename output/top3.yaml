@@ -3,11 +3,11 @@ log-level: info
 mixed-port: 7890
 mode: Rule
 proxies:
-- cipher: aes-256-gcm
-  name: 🇨🇦 SS-CA-1545
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 51.79.64.198
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦 SS-CA-1555
+  password: 575hiopq2h28yao6
+  port: 8080
+  server: 15.235.121.109
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -28,7 +28,7 @@ proxies:
 proxy-groups:
 - name: 🚀 最快3节点
   proxies:
-  - 🇨🇦 SS-CA-1545
+  - 🇨🇦 SS-CA-1555
   - SS
   - TROJAN-1
   type: select
